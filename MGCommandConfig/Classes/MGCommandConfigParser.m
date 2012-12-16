@@ -6,6 +6,29 @@
 
 @implementation MGCommandConfigParser
 
++ (id <MGAsyncCommand>)configForResource:(NSString *)resource
+{
+	return [self configForResource:resource ofType:@"config"];
+}
+
++ (id <MGAsyncCommand>)configForResource:(NSString *)resource ofType:(NSString *)type
+{
+	NSError *error;
+	NSString *path = [[NSBundle mainBundle] pathForResource:resource ofType:type];
+	NSString *string = [NSString stringWithContentsOfFile:path
+												 encoding:NSUTF8StringEncoding
+													error:&error];
+
+	NSAssert(!error, [error localizedDescription]);
+
+	return [self configForString:string];
+}
+
++ (id <MGAsyncCommand>)configForString:(NSString *)config
+{
+	return [[[MGCommandConfigParser alloc] init] configForString:config];
+}
+
 - (id)init
 {
 	self = [super init];
@@ -18,7 +41,7 @@
 	return self;
 }
 
-- (id <MGAsyncCommand>)parseTutorialConfig:(NSString *)config
+- (id <MGAsyncCommand>)configForString:(NSString *)config
 {
 	NSArray *lines = [config componentsSeparatedByCharactersInSet: [NSCharacterSet newlineCharacterSet]];
 

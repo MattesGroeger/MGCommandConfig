@@ -42,22 +42,15 @@
 
 @end
 
-SPEC_BEGIN(TutorialConfigParserSpec)
+SPEC_BEGIN(MGCommandConfigParserSpec)
 
-describe(@"TutorialConfigParser", ^
+describe(@"MGCommandConfigParser", ^
 {
-	__block MGCommandConfigParser *commandConfigParser;
-
-	beforeEach(^
-	{
-		commandConfigParser = [[MGCommandConfigParser alloc] init];
-	});
-
 	it(@"should parse nothing", ^
 	{
 		NSString *config = @"\n";
 
-		id result = [commandConfigParser parseTutorialConfig:config];
+		id result = [MGCommandConfigParser configForString:config];
 
 		[result shouldBeNil];
 	});
@@ -66,7 +59,7 @@ describe(@"TutorialConfigParser", ^
 	{
 		NSString *config = @"# comment\n";
 
-		id result = [commandConfigParser parseTutorialConfig:config];
+		id result = [MGCommandConfigParser configForString:config];
 
 		[result shouldBeNil];
 	});
@@ -75,7 +68,7 @@ describe(@"TutorialConfigParser", ^
 	{
 		NSString *config = @"  	# comment  \n";
 
-		id result = [commandConfigParser parseTutorialConfig:config];
+		id result = [MGCommandConfigParser configForString:config];
 
 		[result shouldBeNil];
 	});
@@ -86,7 +79,7 @@ describe(@"TutorialConfigParser", ^
 
 		[[theBlock(^
 		{
-			[commandConfigParser parseTutorialConfig:config];
+			[MGCommandConfigParser configForString:config];
 		}) should] raiseWithReason:@"Unknown key word '@foo' on line 1!"];
 	});
 
@@ -95,7 +88,7 @@ describe(@"TutorialConfigParser", ^
 		NSString *config = 	@"@sequential\n"
 							@"@end\n";
 
-		id result = [commandConfigParser parseTutorialConfig:config];
+		id result = [MGCommandConfigParser configForString:config];
 
 		[[result should] beKindOfClass:[MGSequentialCommandGroup class]];
 		[[[result commands] should] beEmpty];
@@ -106,7 +99,7 @@ describe(@"TutorialConfigParser", ^
 		NSString *config = 	@"@concurrent\n"
 							@"@end\n";
 
-		id result = [commandConfigParser parseTutorialConfig:config];
+		id result = [MGCommandConfigParser configForString:config];
 
 		[[result should] beKindOfClass:[MGCommandGroup class]];
 		[[[result commands] should] beEmpty];
@@ -118,7 +111,7 @@ describe(@"TutorialConfigParser", ^
 
 		[[theBlock(^
 		{
-			[commandConfigParser parseTutorialConfig:config];
+			[MGCommandConfigParser configForString:config];
 		}) should] raiseWithReason:@"Commands have to be wrapped in '@sequential' or '@concurrent' statements. Can't add command 'simple' on line 1!"];
 	});
 
@@ -128,7 +121,7 @@ describe(@"TutorialConfigParser", ^
 							@"	simple\n"
 							@"@end\n";
 
-		id result = [commandConfigParser parseTutorialConfig:config];
+		id result = [MGCommandConfigParser configForString:config];
 
 		[[[result commands] should] haveCountOf:1];
 		[[[result commands][0] should] beKindOfClass:[SimpleCommand class]];
@@ -140,7 +133,7 @@ describe(@"TutorialConfigParser", ^
 							@"	simple:\n"
 							@"@end\n";
 
-		id result = [commandConfigParser parseTutorialConfig:config];
+		id result = [MGCommandConfigParser configForString:config];
 
 		[[[result commands] should] haveCountOf:1];
 		[[[result commands][0] should] beKindOfClass:[SimpleCommand class]];
@@ -152,7 +145,7 @@ describe(@"TutorialConfigParser", ^
 							@"	simple :\n"
 							@"@end\n";
 
-		id result = [commandConfigParser parseTutorialConfig:config];
+		id result = [MGCommandConfigParser configForString:config];
 
 		[[[result commands] should] haveCountOf:1];
 		[[[result commands][0] should] beKindOfClass:[SimpleCommand class]];
@@ -164,7 +157,7 @@ describe(@"TutorialConfigParser", ^
 							@"	arguments:23.2,\"test\",1\n"
 							@"@end\n";
 
-		id result = [commandConfigParser parseTutorialConfig:config];
+		id result = [MGCommandConfigParser configForString:config];
 
 		[[[result commands] should] haveCountOf:1];
 		[[[result commands][0] should] beKindOfClass:[ArgumentsCommand class]];
@@ -179,7 +172,7 @@ describe(@"TutorialConfigParser", ^
 							@"	arguments:  23.2, \"test\"  , 1	\n"
 							@"@end\n";
 
-		id result = [commandConfigParser parseTutorialConfig:config];
+		id result = [MGCommandConfigParser configForString:config];
 
 		[[[result commands] should] haveCountOf:1];
 		[[[result commands][0] should] beKindOfClass:[ArgumentsCommand class]];
@@ -196,7 +189,7 @@ describe(@"TutorialConfigParser", ^
 
 		[[theBlock(^
 		{
-			[commandConfigParser parseTutorialConfig:config];
+			[MGCommandConfigParser configForString:config];
 		}) should] raiseWithReason:@"Missing arguments for command 'arguments' on line 2!"];
 	});
 
@@ -208,7 +201,7 @@ describe(@"TutorialConfigParser", ^
 
 		[[theBlock(^
 		{
-			[commandConfigParser parseTutorialConfig:config];
+			[MGCommandConfigParser configForString:config];
 		}) should] raiseWithReason:@"Command 'withoutProtocol' doesn't implement <MGConfigurableCommand> on line 2!"];
 	});
 
@@ -220,7 +213,7 @@ describe(@"TutorialConfigParser", ^
 
 		[[theBlock(^
 		{
-			[commandConfigParser parseTutorialConfig:config];
+			[MGCommandConfigParser configForString:config];
 		}) should] raiseWithReason:@"Unknown command 'foo', could not find corresponding class 'FooCommand' on line 2!"];
 	});
 
@@ -231,7 +224,7 @@ describe(@"TutorialConfigParser", ^
 							@"	@end\n"
 							@"@end\n";
 
-		id result = [commandConfigParser parseTutorialConfig:config];
+		id result = [MGCommandConfigParser configForString:config];
 
 		[[[result commands] should] haveCountOf:1];
 		[[[result commands][0] should] beKindOfClass:[MGSequentialCommandGroup class]];
@@ -249,7 +242,7 @@ describe(@"TutorialConfigParser", ^
 
 		[[theBlock(^
 		{
-			[commandConfigParser parseTutorialConfig:config];
+			[MGCommandConfigParser configForString:config];
 		}) should] raiseWithReason:@"Having several groups on the top level is not allowed! Found second group on line 4!"];
 	});
 
@@ -262,7 +255,7 @@ describe(@"TutorialConfigParser", ^
 
 		[[theBlock(^
 		{
-			[commandConfigParser parseTutorialConfig:config];
+			[MGCommandConfigParser configForString:config];
 		}) should] raiseWithReason:@"Not matching @end tag. Found one too much on line 4!"];
 	});
 });

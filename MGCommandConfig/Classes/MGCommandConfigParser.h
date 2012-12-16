@@ -11,6 +11,22 @@
 	MGCommandGroup *_rootCommand;
 }
 
-- (id <MGAsyncCommand>)parseTutorialConfig:(NSString *)config;
+/**
+* Parses a resource with file extension '.config' from the main bundle.
+* Returns the root command group for starting execution.
+*/
++ (id <MGAsyncCommand>)configForResource:(NSString *)resource;
+
+/**
+* Parses a resource with custom file extension from the main bundle.
+* Returns the root command group for starting execution.
+*/
++ (id <MGAsyncCommand>)configForResource:(NSString *)resource ofType:(NSString *)type;
+
+/**
+* Parses a command config string. Returns the root command group for
+* starting execution.
+*/
++ (id <MGAsyncCommand>)configForString:(NSString *)config;
 
 @end
