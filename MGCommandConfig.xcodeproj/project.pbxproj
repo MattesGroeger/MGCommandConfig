@@ -27,7 +27,11 @@
 		AD843271167E17E3009123B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD843270167E17E3009123B0 /* ViewController.m */; };
 		AD843274167E17E3009123B0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD843272167E17E3009123B0 /* ViewController.xib */; };
 		AD8432E1167E29D9009123B0 /* libPods-MGCommandConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDAA2B82D3E457EAD67A147 /* libPods-MGCommandConfig.a */; };
+		AD8432EA167E3E45009123B0 /* libPods-MGCommandConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDAA2B82D3E457EAD67A147 /* libPods-MGCommandConfig.a */; };
+		AD8432F3167E46F9009123B0 /* MGCommandConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D990CFF55C305358D8E5D /* MGCommandConfigParser.m */; };
 		BF8D942DA2A80C330EA8706A /* MGConfigurableCommand.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF8D996BFD0D70A614D2071C /* MGConfigurableCommand.h */; };
+		BF8D957AC1A5B52EAFA76605 /* PrintCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D930EF9DB66334D52DCD4 /* PrintCommand.m */; };
+		BF8D957B5DAD98BE5E6DA77B /* DelayCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D9FEF4CBAE6ED49082F65 /* DelayCommand.m */; };
 		BF8D97B0B1E489507F19985D /* MGCommandConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D990CFF55C305358D8E5D /* MGCommandConfigParser.m */; };
 		BF8D9A7BD0A9046DB412910D /* MGCommandConfigParserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D9A989277436719FB0064 /* MGCommandConfigParserSpec.m */; };
 		BF8D9FA676BCD3D37155BAF1 /* MGCommandConfigParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF8D9CE5DDC550D50CFF14DF /* MGCommandConfigParser.h */; };
@@ -90,10 +94,14 @@
 		AD84326F167E17E3009123B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AD843270167E17E3009123B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AD843273167E17E3009123B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BF8D930EF9DB66334D52DCD4 /* PrintCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintCommand.m; sourceTree = "<group>"; };
+		BF8D9807800B8E5E9196F999 /* DelayCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayCommand.h; sourceTree = "<group>"; };
 		BF8D990CFF55C305358D8E5D /* MGCommandConfigParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCommandConfigParser.m; sourceTree = "<group>"; };
 		BF8D996BFD0D70A614D2071C /* MGConfigurableCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGConfigurableCommand.h; sourceTree = "<group>"; };
 		BF8D9A989277436719FB0064 /* MGCommandConfigParserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCommandConfigParserSpec.m; sourceTree = "<group>"; };
+		BF8D9C468F7CC8FF2C70A69E /* PrintCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintCommand.h; sourceTree = "<group>"; };
 		BF8D9CE5DDC550D50CFF14DF /* MGCommandConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCommandConfigParser.h; sourceTree = "<group>"; };
+		BF8D9FEF4CBAE6ED49082F65 /* DelayCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayCommand.m; sourceTree = "<group>"; };
 		C38F3775FAE24171984B24B5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C7FA7243A64DEDB37AAF08 /* libPods-MGCommandConfigExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGCommandConfigExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FB3433D77C471E9C030230 /* Pods-MGCommandConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGCommandConfig.xcconfig"; path = "Pods/Pods-MGCommandConfig.xcconfig"; sourceTree = SOURCE_ROOT; };
@@ -130,6 +138,7 @@
 				AD843259167E17E3009123B0 /* UIKit.framework in Frameworks */,
 				AD84325A167E17E3009123B0 /* Foundation.framework in Frameworks */,
 				AD84325C167E17E3009123B0 /* CoreGraphics.framework in Frameworks */,
+				AD8432EA167E3E45009123B0 /* libPods-MGCommandConfig.a in Frameworks */,
 				6ED63A984A0F434895460E7B /* libPods-MGCommandConfigExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,9 +253,21 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		BF8D986ACC01B0026A42A65C /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D9807800B8E5E9196F999 /* DelayCommand.h */,
+				BF8D9FEF4CBAE6ED49082F65 /* DelayCommand.m */,
+				BF8D9C468F7CC8FF2C70A69E /* PrintCommand.h */,
+				BF8D930EF9DB66334D52DCD4 /* PrintCommand.m */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
 		BF8D9C741EC57E6EC84E82DD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BF8D986ACC01B0026A42A65C /* Commands */,
 				AD843266167E17E3009123B0 /* AppDelegate.h */,
 				AD843267167E17E3009123B0 /* AppDelegate.m */,
 				AD84326F167E17E3009123B0 /* ViewController.h */,
@@ -470,9 +491,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8432F3167E46F9009123B0 /* MGCommandConfigParser.m in Sources */,
 				AD843264167E17E3009123B0 /* main.m in Sources */,
 				AD843268167E17E3009123B0 /* AppDelegate.m in Sources */,
 				AD843271167E17E3009123B0 /* ViewController.m in Sources */,
+				BF8D957B5DAD98BE5E6DA77B /* DelayCommand.m in Sources */,
+				BF8D957AC1A5B52EAFA76605 /* PrintCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
