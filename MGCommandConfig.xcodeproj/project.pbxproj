@@ -7,297 +7,287 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07BDA1C2C305465B8BFE6535 /* libPods-MGCommandConfigTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB77E269FF3414C8089E99F /* libPods-MGCommandConfigTests.a */; };
-		6ED63A984A0F434895460E7B /* libPods-MGCommandConfigExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C7FA7243A64DEDB37AAF08 /* libPods-MGCommandConfigExample.a */; };
-		AD84322C167E15F3009123B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD84322B167E15F3009123B0 /* Foundation.framework */; };
-		AD84323B167E15F3009123B0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD84323A167E15F3009123B0 /* SenTestingKit.framework */; };
-		AD84323D167E15F3009123B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD84323C167E15F3009123B0 /* UIKit.framework */; };
-		AD84323E167E15F3009123B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD84322B167E15F3009123B0 /* Foundation.framework */; };
-		AD843241167E15F3009123B0 /* libMGCommandConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD843228167E15F3009123B0 /* libMGCommandConfig.a */; };
-		AD843247167E15F3009123B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD843245167E15F3009123B0 /* InfoPlist.strings */; };
-		AD843259167E17E3009123B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD84323C167E15F3009123B0 /* UIKit.framework */; };
-		AD84325A167E17E3009123B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD84322B167E15F3009123B0 /* Foundation.framework */; };
-		AD84325C167E17E3009123B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD84325B167E17E3009123B0 /* CoreGraphics.framework */; };
-		AD843262167E17E3009123B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD843260167E17E3009123B0 /* InfoPlist.strings */; };
-		AD843264167E17E3009123B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD843263167E17E3009123B0 /* main.m */; };
-		AD843268167E17E3009123B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD843267167E17E3009123B0 /* AppDelegate.m */; };
-		AD84326A167E17E3009123B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD843269167E17E3009123B0 /* Default.png */; };
-		AD84326C167E17E3009123B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD84326B167E17E3009123B0 /* Default@2x.png */; };
-		AD84326E167E17E3009123B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD84326D167E17E3009123B0 /* Default-568h@2x.png */; };
-		AD843271167E17E3009123B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD843270167E17E3009123B0 /* ViewController.m */; };
-		AD843274167E17E3009123B0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD843272167E17E3009123B0 /* ViewController.xib */; };
-		AD8432E1167E29D9009123B0 /* libPods-MGCommandConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDAA2B82D3E457EAD67A147 /* libPods-MGCommandConfig.a */; };
-		AD8432EA167E3E45009123B0 /* libPods-MGCommandConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDAA2B82D3E457EAD67A147 /* libPods-MGCommandConfig.a */; };
-		AD8432F3167E46F9009123B0 /* MGCommandConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D990CFF55C305358D8E5D /* MGCommandConfigParser.m */; };
-		BF8D942DA2A80C330EA8706A /* MGConfigurableCommand.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF8D996BFD0D70A614D2071C /* MGConfigurableCommand.h */; };
-		BF8D957AC1A5B52EAFA76605 /* PrintCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D930EF9DB66334D52DCD4 /* PrintCommand.m */; };
-		BF8D957B5DAD98BE5E6DA77B /* DelayCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D9FEF4CBAE6ED49082F65 /* DelayCommand.m */; };
-		BF8D97B0B1E489507F19985D /* MGCommandConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D990CFF55C305358D8E5D /* MGCommandConfigParser.m */; };
-		BF8D9A7BD0A9046DB412910D /* MGCommandConfigParserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D9A989277436719FB0064 /* MGCommandConfigParserSpec.m */; };
-		BF8D9FA676BCD3D37155BAF1 /* MGCommandConfigParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF8D9CE5DDC550D50CFF14DF /* MGCommandConfigParser.h */; };
+		5383C1B93B2F4D5CBECBE47F /* libPods-MGCommandConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A97AB168D1449695117895 /* libPods-MGCommandConfig.a */; };
+		AD6066261681239700872726 /* MGCommandConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6066241681239700872726 /* MGCommandConfigParser.m */; };
+		AD60662A168123AB00872726 /* MGCommandConfigParserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AD606629168123AB00872726 /* MGCommandConfigParserSpec.m */; };
+		AD606635168123BB00872726 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD60662D168123BB00872726 /* AppDelegate.m */; };
+		AD606636168123BB00872726 /* DelayCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = AD606630168123BB00872726 /* DelayCommand.m */; };
+		AD606637168123BB00872726 /* PrintCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = AD606632168123BB00872726 /* PrintCommand.m */; };
+		AD606638168123BB00872726 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD606634168123BB00872726 /* ViewController.m */; };
+		AD60663E168124AB00872726 /* libMGCommandConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8CE7E51681203600049B2A /* libMGCommandConfig.a */; };
+		AD8CE7E91681203600049B2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8CE7E81681203600049B2A /* Foundation.framework */; };
+		AD8CE7F81681203700049B2A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8CE7F71681203700049B2A /* SenTestingKit.framework */; };
+		AD8CE7FA1681203700049B2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8CE7F91681203700049B2A /* UIKit.framework */; };
+		AD8CE7FB1681203700049B2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8CE7E81681203600049B2A /* Foundation.framework */; };
+		AD8CE7FE1681203700049B2A /* libMGCommandConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8CE7E51681203600049B2A /* libMGCommandConfig.a */; };
+		AD8CE8041681203700049B2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD8CE8021681203700049B2A /* InfoPlist.strings */; };
+		AD8CE8161681204A00049B2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8CE7F91681203700049B2A /* UIKit.framework */; };
+		AD8CE8171681204A00049B2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8CE7E81681203600049B2A /* Foundation.framework */; };
+		AD8CE8191681204A00049B2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8CE8181681204A00049B2A /* CoreGraphics.framework */; };
+		AD8CE81F1681204A00049B2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD8CE81D1681204A00049B2A /* InfoPlist.strings */; };
+		AD8CE8211681204A00049B2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CE8201681204A00049B2A /* main.m */; };
+		AD8CE8271681204A00049B2A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8CE8261681204A00049B2A /* Default.png */; };
+		AD8CE8291681204A00049B2A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8CE8281681204A00049B2A /* Default@2x.png */; };
+		AD8CE82B1681204A00049B2A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8CE82A1681204A00049B2A /* Default-568h@2x.png */; };
+		AD8CE8311681204A00049B2A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8CE82F1681204A00049B2A /* ViewController.xib */; };
+		ED38A68C366D48599B1A148E /* libPods-MGCommandConfigTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDA5F4A2204513A73EACBD /* libPods-MGCommandConfigTests.a */; };
+		FB1917490BA6412C954913EE /* libPods-MGCommandConfigExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 086F45D506AF4AB294BC854D /* libPods-MGCommandConfigExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AD84323F167E15F3009123B0 /* PBXContainerItemProxy */ = {
+		AD6066391681241F00872726 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AD84321F167E15F3009123B0 /* Project object */;
+			containerPortal = AD8CE7DC1681203600049B2A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AD843227167E15F3009123B0;
+			remoteGlobalIDString = AD8CE7E41681203600049B2A;
 			remoteInfo = MGCommandConfig;
 		};
-		AD84328B167E1927009123B0 /* PBXContainerItemProxy */ = {
+		AD8CE7FC1681203700049B2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AD84321F167E15F3009123B0 /* Project object */;
+			containerPortal = AD8CE7DC1681203600049B2A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AD843227167E15F3009123B0;
+			remoteGlobalIDString = AD8CE7E41681203600049B2A;
 			remoteInfo = MGCommandConfig;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AD843226167E15F3009123B0 /* CopyFiles */ = {
+		AD8CE7E31681203600049B2A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				BF8D942DA2A80C330EA8706A /* MGConfigurableCommand.h in CopyFiles */,
-				BF8D9FA676BCD3D37155BAF1 /* MGCommandConfigParser.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3537B26A27454CFBB9E787BB /* Pods-MGCommandConfigTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGCommandConfigTests.xcconfig"; path = "Pods/Pods-MGCommandConfigTests.xcconfig"; sourceTree = SOURCE_ROOT; };
-		3CB77E269FF3414C8089E99F /* libPods-MGCommandConfigTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGCommandConfigTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EDAA2B82D3E457EAD67A147 /* libPods-MGCommandConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGCommandConfig.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD843228167E15F3009123B0 /* libMGCommandConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMGCommandConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD84322B167E15F3009123B0 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AD84322F167E15F3009123B0 /* MGCommandConfig-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MGCommandConfig-Prefix.pch"; sourceTree = "<group>"; };
-		AD843239167E15F3009123B0 /* MGCommandConfigTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGCommandConfigTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD84323A167E15F3009123B0 /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		AD84323C167E15F3009123B0 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		AD843244167E15F3009123B0 /* MGCommandConfigTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MGCommandConfigTests-Info.plist"; sourceTree = "<group>"; };
-		AD843246167E15F3009123B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AD843257167E17E3009123B0 /* MGCommandConfigExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGCommandConfigExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD84325B167E17E3009123B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AD84325F167E17E3009123B0 /* MGCommandConfigExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MGCommandConfigExample-Info.plist"; sourceTree = "<group>"; };
-		AD843261167E17E3009123B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AD843263167E17E3009123B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AD843265167E17E3009123B0 /* MGCommandConfigExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MGCommandConfigExample-Prefix.pch"; sourceTree = "<group>"; };
-		AD843266167E17E3009123B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AD843267167E17E3009123B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD843269167E17E3009123B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		AD84326B167E17E3009123B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		AD84326D167E17E3009123B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		AD84326F167E17E3009123B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AD843270167E17E3009123B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AD843273167E17E3009123B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		BF8D930EF9DB66334D52DCD4 /* PrintCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintCommand.m; sourceTree = "<group>"; };
-		BF8D9807800B8E5E9196F999 /* DelayCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayCommand.h; sourceTree = "<group>"; };
-		BF8D990CFF55C305358D8E5D /* MGCommandConfigParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCommandConfigParser.m; sourceTree = "<group>"; };
-		BF8D996BFD0D70A614D2071C /* MGConfigurableCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGConfigurableCommand.h; sourceTree = "<group>"; };
-		BF8D9A989277436719FB0064 /* MGCommandConfigParserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCommandConfigParserSpec.m; sourceTree = "<group>"; };
-		BF8D9C468F7CC8FF2C70A69E /* PrintCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintCommand.h; sourceTree = "<group>"; };
-		BF8D9CE5DDC550D50CFF14DF /* MGCommandConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCommandConfigParser.h; sourceTree = "<group>"; };
-		BF8D9FEF4CBAE6ED49082F65 /* DelayCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayCommand.m; sourceTree = "<group>"; };
-		C38F3775FAE24171984B24B5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4C7FA7243A64DEDB37AAF08 /* libPods-MGCommandConfigExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGCommandConfigExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9FB3433D77C471E9C030230 /* Pods-MGCommandConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGCommandConfig.xcconfig"; path = "Pods/Pods-MGCommandConfig.xcconfig"; sourceTree = SOURCE_ROOT; };
-		DDD9FB879A084A419683AE86 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
-		ED3AB5B5599A44ADB6BE18C8 /* Pods-MGCommandConfigExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGCommandConfigExample.xcconfig"; path = "Pods/Pods-MGCommandConfigExample.xcconfig"; sourceTree = SOURCE_ROOT; };
+		06A97AB168D1449695117895 /* libPods-MGCommandConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGCommandConfig.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		086F45D506AF4AB294BC854D /* libPods-MGCommandConfigExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGCommandConfigExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFDA5F4A2204513A73EACBD /* libPods-MGCommandConfigTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGCommandConfigTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7044473A70454661BC00B1D5 /* Pods-MGCommandConfigExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGCommandConfigExample.xcconfig"; path = "Pods/Pods-MGCommandConfigExample.xcconfig"; sourceTree = SOURCE_ROOT; };
+		7D36827FA8044D0EBB08F0C2 /* Pods-MGCommandConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGCommandConfig.xcconfig"; path = "Pods/Pods-MGCommandConfig.xcconfig"; sourceTree = SOURCE_ROOT; };
+		AD6066231681239700872726 /* MGCommandConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCommandConfigParser.h; sourceTree = "<group>"; };
+		AD6066241681239700872726 /* MGCommandConfigParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCommandConfigParser.m; sourceTree = "<group>"; };
+		AD6066251681239700872726 /* MGConfigurableCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGConfigurableCommand.h; sourceTree = "<group>"; };
+		AD606629168123AB00872726 /* MGCommandConfigParserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCommandConfigParserSpec.m; sourceTree = "<group>"; };
+		AD60662C168123BB00872726 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD60662D168123BB00872726 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD60662F168123BB00872726 /* DelayCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayCommand.h; sourceTree = "<group>"; };
+		AD606630168123BB00872726 /* DelayCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayCommand.m; sourceTree = "<group>"; };
+		AD606631168123BB00872726 /* PrintCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintCommand.h; sourceTree = "<group>"; };
+		AD606632168123BB00872726 /* PrintCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintCommand.m; sourceTree = "<group>"; };
+		AD606633168123BB00872726 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD606634168123BB00872726 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD8CE7E51681203600049B2A /* libMGCommandConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMGCommandConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8CE7E81681203600049B2A /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD8CE7EC1681203600049B2A /* MGCommandConfig-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MGCommandConfig-Prefix.pch"; sourceTree = "<group>"; };
+		AD8CE7F61681203700049B2A /* MGCommandConfigTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGCommandConfigTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8CE7F71681203700049B2A /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD8CE7F91681203700049B2A /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD8CE8011681203700049B2A /* MGCommandConfigTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MGCommandConfigTests-Info.plist"; sourceTree = "<group>"; };
+		AD8CE8031681203700049B2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD8CE8141681204A00049B2A /* MGCommandConfigExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGCommandConfigExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8CE8181681204A00049B2A /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD8CE81C1681204A00049B2A /* MGCommandConfigExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MGCommandConfigExample-Info.plist"; sourceTree = "<group>"; };
+		AD8CE81E1681204A00049B2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD8CE8201681204A00049B2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD8CE8221681204A00049B2A /* MGCommandConfigExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MGCommandConfigExample-Prefix.pch"; sourceTree = "<group>"; };
+		AD8CE8261681204A00049B2A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AD8CE8281681204A00049B2A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AD8CE82A1681204A00049B2A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD8CE8301681204A00049B2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E70F7AE397DF4BCDA19250D4 /* Pods-MGCommandConfigTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGCommandConfigTests.xcconfig"; path = "Pods/Pods-MGCommandConfigTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AD843225167E15F3009123B0 /* Frameworks */ = {
+		AD8CE7E21681203600049B2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD84322C167E15F3009123B0 /* Foundation.framework in Frameworks */,
+				AD8CE7E91681203600049B2A /* Foundation.framework in Frameworks */,
+				5383C1B93B2F4D5CBECBE47F /* libPods-MGCommandConfig.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD843235167E15F3009123B0 /* Frameworks */ = {
+		AD8CE7F21681203700049B2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD84323B167E15F3009123B0 /* SenTestingKit.framework in Frameworks */,
-				AD84323D167E15F3009123B0 /* UIKit.framework in Frameworks */,
-				AD84323E167E15F3009123B0 /* Foundation.framework in Frameworks */,
-				AD843241167E15F3009123B0 /* libMGCommandConfig.a in Frameworks */,
-				AD8432E1167E29D9009123B0 /* libPods-MGCommandConfig.a in Frameworks */,
-				07BDA1C2C305465B8BFE6535 /* libPods-MGCommandConfigTests.a in Frameworks */,
+				AD8CE7F81681203700049B2A /* SenTestingKit.framework in Frameworks */,
+				AD8CE7FA1681203700049B2A /* UIKit.framework in Frameworks */,
+				AD8CE7FB1681203700049B2A /* Foundation.framework in Frameworks */,
+				AD8CE7FE1681203700049B2A /* libMGCommandConfig.a in Frameworks */,
+				ED38A68C366D48599B1A148E /* libPods-MGCommandConfigTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD843254167E17E3009123B0 /* Frameworks */ = {
+		AD8CE8111681204A00049B2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD843259167E17E3009123B0 /* UIKit.framework in Frameworks */,
-				AD84325A167E17E3009123B0 /* Foundation.framework in Frameworks */,
-				AD84325C167E17E3009123B0 /* CoreGraphics.framework in Frameworks */,
-				AD8432EA167E3E45009123B0 /* libPods-MGCommandConfig.a in Frameworks */,
-				6ED63A984A0F434895460E7B /* libPods-MGCommandConfigExample.a in Frameworks */,
+				AD8CE8161681204A00049B2A /* UIKit.framework in Frameworks */,
+				AD8CE8171681204A00049B2A /* Foundation.framework in Frameworks */,
+				AD8CE8191681204A00049B2A /* CoreGraphics.framework in Frameworks */,
+				AD60663E168124AB00872726 /* libMGCommandConfig.a in Frameworks */,
+				FB1917490BA6412C954913EE /* libPods-MGCommandConfigExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AD84321D167E15F3009123B0 = {
+		AD6066221681239700872726 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AD84322D167E15F3009123B0 /* MGCommandConfig */,
-				AD843242167E15F3009123B0 /* MGCommandConfigTests */,
-				AD84325D167E17E3009123B0 /* MGCommandConfigExample */,
-				AD84322A167E15F3009123B0 /* Frameworks */,
-				AD843229167E15F3009123B0 /* Products */,
-				DDD9FB879A084A419683AE86 /* Pods.xcconfig */,
-				ED3AB5B5599A44ADB6BE18C8 /* Pods-MGCommandConfigExample.xcconfig */,
-				3537B26A27454CFBB9E787BB /* Pods-MGCommandConfigTests.xcconfig */,
-				D9FB3433D77C471E9C030230 /* Pods-MGCommandConfig.xcconfig */,
-			);
-			sourceTree = "<group>";
-		};
-		AD843229167E15F3009123B0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AD843228167E15F3009123B0 /* libMGCommandConfig.a */,
-				AD843239167E15F3009123B0 /* MGCommandConfigTests.octest */,
-				AD843257167E17E3009123B0 /* MGCommandConfigExample.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		AD84322A167E15F3009123B0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AD84322B167E15F3009123B0 /* Foundation.framework */,
-				AD84323A167E15F3009123B0 /* SenTestingKit.framework */,
-				AD84323C167E15F3009123B0 /* UIKit.framework */,
-				AD84325B167E17E3009123B0 /* CoreGraphics.framework */,
-				C38F3775FAE24171984B24B5 /* libPods.a */,
-				C4C7FA7243A64DEDB37AAF08 /* libPods-MGCommandConfigExample.a */,
-				3CB77E269FF3414C8089E99F /* libPods-MGCommandConfigTests.a */,
-				8EDAA2B82D3E457EAD67A147 /* libPods-MGCommandConfig.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AD84322D167E15F3009123B0 /* MGCommandConfig */ = {
-			isa = PBXGroup;
-			children = (
-				AD84322E167E15F3009123B0 /* Supporting Files */,
-				BF8D9CFA4A1D0AC658EDBB0A /* Classes */,
-			);
-			path = MGCommandConfig;
-			sourceTree = "<group>";
-		};
-		AD84322E167E15F3009123B0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AD84322F167E15F3009123B0 /* MGCommandConfig-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AD843242167E15F3009123B0 /* MGCommandConfigTests */ = {
-			isa = PBXGroup;
-			children = (
-				AD843243167E15F3009123B0 /* Supporting Files */,
-				BF8D92CF23D31ABA2E293811 /* Classes */,
-			);
-			path = MGCommandConfigTests;
-			sourceTree = "<group>";
-		};
-		AD843243167E15F3009123B0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AD843244167E15F3009123B0 /* MGCommandConfigTests-Info.plist */,
-				AD843245167E15F3009123B0 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AD84325D167E17E3009123B0 /* MGCommandConfigExample */ = {
-			isa = PBXGroup;
-			children = (
-				AD843272167E17E3009123B0 /* ViewController.xib */,
-				AD84325E167E17E3009123B0 /* Supporting Files */,
-				BF8D9C741EC57E6EC84E82DD /* Classes */,
-			);
-			path = MGCommandConfigExample;
-			sourceTree = "<group>";
-		};
-		AD84325E167E17E3009123B0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AD84325F167E17E3009123B0 /* MGCommandConfigExample-Info.plist */,
-				AD843260167E17E3009123B0 /* InfoPlist.strings */,
-				AD843263167E17E3009123B0 /* main.m */,
-				AD843265167E17E3009123B0 /* MGCommandConfigExample-Prefix.pch */,
-				AD843269167E17E3009123B0 /* Default.png */,
-				AD84326B167E17E3009123B0 /* Default@2x.png */,
-				AD84326D167E17E3009123B0 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BF8D92CF23D31ABA2E293811 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BF8D9A989277436719FB0064 /* MGCommandConfigParserSpec.m */,
+				AD6066231681239700872726 /* MGCommandConfigParser.h */,
+				AD6066241681239700872726 /* MGCommandConfigParser.m */,
+				AD6066251681239700872726 /* MGConfigurableCommand.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		BF8D986ACC01B0026A42A65C /* Commands */ = {
+		AD606628168123AB00872726 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BF8D9807800B8E5E9196F999 /* DelayCommand.h */,
-				BF8D9FEF4CBAE6ED49082F65 /* DelayCommand.m */,
-				BF8D9C468F7CC8FF2C70A69E /* PrintCommand.h */,
-				BF8D930EF9DB66334D52DCD4 /* PrintCommand.m */,
+				AD606629168123AB00872726 /* MGCommandConfigParserSpec.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AD60662B168123BB00872726 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD60662E168123BB00872726 /* Commands */,
+				AD60662C168123BB00872726 /* AppDelegate.h */,
+				AD60662D168123BB00872726 /* AppDelegate.m */,
+				AD606633168123BB00872726 /* ViewController.h */,
+				AD606634168123BB00872726 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AD60662E168123BB00872726 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				AD60662F168123BB00872726 /* DelayCommand.h */,
+				AD606630168123BB00872726 /* DelayCommand.m */,
+				AD606631168123BB00872726 /* PrintCommand.h */,
+				AD606632168123BB00872726 /* PrintCommand.m */,
 			);
 			path = Commands;
 			sourceTree = "<group>";
 		};
-		BF8D9C741EC57E6EC84E82DD /* Classes */ = {
+		AD8CE7DA1681203600049B2A = {
 			isa = PBXGroup;
 			children = (
-				BF8D986ACC01B0026A42A65C /* Commands */,
-				AD843266167E17E3009123B0 /* AppDelegate.h */,
-				AD843267167E17E3009123B0 /* AppDelegate.m */,
-				AD84326F167E17E3009123B0 /* ViewController.h */,
-				AD843270167E17E3009123B0 /* ViewController.m */,
+				AD8CE7EA1681203600049B2A /* MGCommandConfig */,
+				AD8CE7FF1681203700049B2A /* MGCommandConfigTests */,
+				AD8CE81A1681204A00049B2A /* MGCommandConfigExample */,
+				AD8CE7E71681203600049B2A /* Frameworks */,
+				AD8CE7E61681203600049B2A /* Products */,
+				7D36827FA8044D0EBB08F0C2 /* Pods-MGCommandConfig.xcconfig */,
+				7044473A70454661BC00B1D5 /* Pods-MGCommandConfigExample.xcconfig */,
+				E70F7AE397DF4BCDA19250D4 /* Pods-MGCommandConfigTests.xcconfig */,
 			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
-		BF8D9CFA4A1D0AC658EDBB0A /* Classes */ = {
+		AD8CE7E61681203600049B2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF8D996BFD0D70A614D2071C /* MGConfigurableCommand.h */,
-				BF8D9CE5DDC550D50CFF14DF /* MGCommandConfigParser.h */,
-				BF8D990CFF55C305358D8E5D /* MGCommandConfigParser.m */,
+				AD8CE7E51681203600049B2A /* libMGCommandConfig.a */,
+				AD8CE7F61681203700049B2A /* MGCommandConfigTests.octest */,
+				AD8CE8141681204A00049B2A /* MGCommandConfigExample.app */,
 			);
-			path = Classes;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD8CE7E71681203600049B2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CE7E81681203600049B2A /* Foundation.framework */,
+				AD8CE7F71681203700049B2A /* SenTestingKit.framework */,
+				AD8CE7F91681203700049B2A /* UIKit.framework */,
+				AD8CE8181681204A00049B2A /* CoreGraphics.framework */,
+				06A97AB168D1449695117895 /* libPods-MGCommandConfig.a */,
+				086F45D506AF4AB294BC854D /* libPods-MGCommandConfigExample.a */,
+				1FFDA5F4A2204513A73EACBD /* libPods-MGCommandConfigTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD8CE7EA1681203600049B2A /* MGCommandConfig */ = {
+			isa = PBXGroup;
+			children = (
+				AD6066221681239700872726 /* Classes */,
+				AD8CE7EB1681203600049B2A /* Supporting Files */,
+			);
+			path = MGCommandConfig;
+			sourceTree = "<group>";
+		};
+		AD8CE7EB1681203600049B2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CE7EC1681203600049B2A /* MGCommandConfig-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD8CE7FF1681203700049B2A /* MGCommandConfigTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD606628168123AB00872726 /* Classes */,
+				AD8CE8001681203700049B2A /* Supporting Files */,
+			);
+			path = MGCommandConfigTests;
+			sourceTree = "<group>";
+		};
+		AD8CE8001681203700049B2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CE8011681203700049B2A /* MGCommandConfigTests-Info.plist */,
+				AD8CE8021681203700049B2A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD8CE81A1681204A00049B2A /* MGCommandConfigExample */ = {
+			isa = PBXGroup;
+			children = (
+				AD60662B168123BB00872726 /* Classes */,
+				AD8CE82F1681204A00049B2A /* ViewController.xib */,
+				AD8CE81B1681204A00049B2A /* Supporting Files */,
+			);
+			path = MGCommandConfigExample;
+			sourceTree = "<group>";
+		};
+		AD8CE81B1681204A00049B2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CE81C1681204A00049B2A /* MGCommandConfigExample-Info.plist */,
+				AD8CE81D1681204A00049B2A /* InfoPlist.strings */,
+				AD8CE8201681204A00049B2A /* main.m */,
+				AD8CE8221681204A00049B2A /* MGCommandConfigExample-Prefix.pch */,
+				AD8CE8261681204A00049B2A /* Default.png */,
+				AD8CE8281681204A00049B2A /* Default@2x.png */,
+				AD8CE82A1681204A00049B2A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD843227167E15F3009123B0 /* MGCommandConfig */ = {
+		AD8CE7E41681203600049B2A /* MGCommandConfig */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD84324D167E15F3009123B0 /* Build configuration list for PBXNativeTarget "MGCommandConfig" */;
+			buildConfigurationList = AD8CE80A1681203700049B2A /* Build configuration list for PBXNativeTarget "MGCommandConfig" */;
 			buildPhases = (
-				AD843224167E15F3009123B0 /* Sources */,
-				AD843225167E15F3009123B0 /* Frameworks */,
-				AD843226167E15F3009123B0 /* CopyFiles */,
-				2EE9D1E82D634E8C99F351C8 /* Copy Pods Resources */,
-				D91FB9B518D44E31BAD415CE /* Copy Pods Resources */,
+				AD8CE7E11681203600049B2A /* Sources */,
+				AD8CE7E21681203600049B2A /* Frameworks */,
+				AD8CE7E31681203600049B2A /* CopyFiles */,
+				4C03B240A00E48808B63FC66 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,129 +295,101 @@
 			);
 			name = MGCommandConfig;
 			productName = MGCommandConfig;
-			productReference = AD843228167E15F3009123B0 /* libMGCommandConfig.a */;
+			productReference = AD8CE7E51681203600049B2A /* libMGCommandConfig.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		AD843238167E15F3009123B0 /* MGCommandConfigTests */ = {
+		AD8CE7F51681203700049B2A /* MGCommandConfigTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD843250167E15F3009123B0 /* Build configuration list for PBXNativeTarget "MGCommandConfigTests" */;
+			buildConfigurationList = AD8CE80D1681203700049B2A /* Build configuration list for PBXNativeTarget "MGCommandConfigTests" */;
 			buildPhases = (
-				AD843234167E15F3009123B0 /* Sources */,
-				AD843235167E15F3009123B0 /* Frameworks */,
-				AD843236167E15F3009123B0 /* Resources */,
-				AD843237167E15F3009123B0 /* ShellScript */,
-				04BB6F1C49F245BBBD092D35 /* Copy Pods Resources */,
+				AD8CE7F11681203700049B2A /* Sources */,
+				AD8CE7F21681203700049B2A /* Frameworks */,
+				AD8CE7F31681203700049B2A /* Resources */,
+				AD8CE7F41681203700049B2A /* ShellScript */,
+				9A560783E5B94A82A2060560 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AD843240167E15F3009123B0 /* PBXTargetDependency */,
+				AD8CE7FD1681203700049B2A /* PBXTargetDependency */,
 			);
 			name = MGCommandConfigTests;
 			productName = MGCommandConfigTests;
-			productReference = AD843239167E15F3009123B0 /* MGCommandConfigTests.octest */;
+			productReference = AD8CE7F61681203700049B2A /* MGCommandConfigTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		AD843256167E17E3009123B0 /* MGCommandConfigExample */ = {
+		AD8CE8131681204A00049B2A /* MGCommandConfigExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD843275167E17E3009123B0 /* Build configuration list for PBXNativeTarget "MGCommandConfigExample" */;
+			buildConfigurationList = AD8CE8321681204A00049B2A /* Build configuration list for PBXNativeTarget "MGCommandConfigExample" */;
 			buildPhases = (
-				AD843253167E17E3009123B0 /* Sources */,
-				AD843254167E17E3009123B0 /* Frameworks */,
-				AD843255167E17E3009123B0 /* Resources */,
-				4120063A95E447E9AE63B67C /* Copy Pods Resources */,
+				AD8CE8101681204A00049B2A /* Sources */,
+				AD8CE8111681204A00049B2A /* Frameworks */,
+				AD8CE8121681204A00049B2A /* Resources */,
+				2B04DC4A6171442999803F8A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AD84328C167E1927009123B0 /* PBXTargetDependency */,
+				AD60663A1681241F00872726 /* PBXTargetDependency */,
 			);
 			name = MGCommandConfigExample;
 			productName = MGCommandConfigExample;
-			productReference = AD843257167E17E3009123B0 /* MGCommandConfigExample.app */;
+			productReference = AD8CE8141681204A00049B2A /* MGCommandConfigExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AD84321F167E15F3009123B0 /* Project object */ = {
+		AD8CE7DC1681203600049B2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Mattes Groeger";
 			};
-			buildConfigurationList = AD843222167E15F3009123B0 /* Build configuration list for PBXProject "MGCommandConfig" */;
+			buildConfigurationList = AD8CE7DF1681203600049B2A /* Build configuration list for PBXProject "MGCommandConfig" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = AD84321D167E15F3009123B0;
-			productRefGroup = AD843229167E15F3009123B0 /* Products */;
+			mainGroup = AD8CE7DA1681203600049B2A;
+			productRefGroup = AD8CE7E61681203600049B2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD843227167E15F3009123B0 /* MGCommandConfig */,
-				AD843238167E15F3009123B0 /* MGCommandConfigTests */,
-				AD843256167E17E3009123B0 /* MGCommandConfigExample */,
+				AD8CE7E41681203600049B2A /* MGCommandConfig */,
+				AD8CE7F51681203700049B2A /* MGCommandConfigTests */,
+				AD8CE8131681204A00049B2A /* MGCommandConfigExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AD843236167E15F3009123B0 /* Resources */ = {
+		AD8CE7F31681203700049B2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD843247167E15F3009123B0 /* InfoPlist.strings in Resources */,
+				AD8CE8041681203700049B2A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD843255167E17E3009123B0 /* Resources */ = {
+		AD8CE8121681204A00049B2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD843262167E17E3009123B0 /* InfoPlist.strings in Resources */,
-				AD84326A167E17E3009123B0 /* Default.png in Resources */,
-				AD84326C167E17E3009123B0 /* Default@2x.png in Resources */,
-				AD84326E167E17E3009123B0 /* Default-568h@2x.png in Resources */,
-				AD843274167E17E3009123B0 /* ViewController.xib in Resources */,
+				AD8CE81F1681204A00049B2A /* InfoPlist.strings in Resources */,
+				AD8CE8271681204A00049B2A /* Default.png in Resources */,
+				AD8CE8291681204A00049B2A /* Default@2x.png in Resources */,
+				AD8CE82B1681204A00049B2A /* Default-568h@2x.png in Resources */,
+				AD8CE8311681204A00049B2A /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04BB6F1C49F245BBBD092D35 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-MGCommandConfigTests-resources.sh\"\n";
-		};
-		2EE9D1E82D634E8C99F351C8 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
-		4120063A95E447E9AE63B67C /* Copy Pods Resources */ = {
+		2B04DC4A6171442999803F8A /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,20 +403,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-MGCommandConfigExample-resources.sh\"\n";
 		};
-		AD843237167E15F3009123B0 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-		D91FB9B518D44E31BAD415CE /* Copy Pods Resources */ = {
+		4C03B240A00E48808B63FC66 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,74 +417,100 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-MGCommandConfig-resources.sh\"\n";
 		};
+		9A560783E5B94A82A2060560 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MGCommandConfigTests-resources.sh\"\n";
+		};
+		AD8CE7F41681203700049B2A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AD843224167E15F3009123B0 /* Sources */ = {
+		AD8CE7E11681203600049B2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8D97B0B1E489507F19985D /* MGCommandConfigParser.m in Sources */,
+				AD6066261681239700872726 /* MGCommandConfigParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD843234167E15F3009123B0 /* Sources */ = {
+		AD8CE7F11681203700049B2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8D9A7BD0A9046DB412910D /* MGCommandConfigParserSpec.m in Sources */,
+				AD60662A168123AB00872726 /* MGCommandConfigParserSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD843253167E17E3009123B0 /* Sources */ = {
+		AD8CE8101681204A00049B2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD8432F3167E46F9009123B0 /* MGCommandConfigParser.m in Sources */,
-				AD843264167E17E3009123B0 /* main.m in Sources */,
-				AD843268167E17E3009123B0 /* AppDelegate.m in Sources */,
-				AD843271167E17E3009123B0 /* ViewController.m in Sources */,
-				BF8D957B5DAD98BE5E6DA77B /* DelayCommand.m in Sources */,
-				BF8D957AC1A5B52EAFA76605 /* PrintCommand.m in Sources */,
+				AD8CE8211681204A00049B2A /* main.m in Sources */,
+				AD606635168123BB00872726 /* AppDelegate.m in Sources */,
+				AD606636168123BB00872726 /* DelayCommand.m in Sources */,
+				AD606637168123BB00872726 /* PrintCommand.m in Sources */,
+				AD606638168123BB00872726 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AD843240167E15F3009123B0 /* PBXTargetDependency */ = {
+		AD60663A1681241F00872726 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AD843227167E15F3009123B0 /* MGCommandConfig */;
-			targetProxy = AD84323F167E15F3009123B0 /* PBXContainerItemProxy */;
+			target = AD8CE7E41681203600049B2A /* MGCommandConfig */;
+			targetProxy = AD6066391681241F00872726 /* PBXContainerItemProxy */;
 		};
-		AD84328C167E1927009123B0 /* PBXTargetDependency */ = {
+		AD8CE7FD1681203700049B2A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AD843227167E15F3009123B0 /* MGCommandConfig */;
-			targetProxy = AD84328B167E1927009123B0 /* PBXContainerItemProxy */;
+			target = AD8CE7E41681203600049B2A /* MGCommandConfig */;
+			targetProxy = AD8CE7FC1681203700049B2A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD843245167E15F3009123B0 /* InfoPlist.strings */ = {
+		AD8CE8021681203700049B2A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD843246167E15F3009123B0 /* en */,
+				AD8CE8031681203700049B2A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		AD843260167E17E3009123B0 /* InfoPlist.strings */ = {
+		AD8CE81D1681204A00049B2A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD843261167E17E3009123B0 /* en */,
+				AD8CE81E1681204A00049B2A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		AD843272167E17E3009123B0 /* ViewController.xib */ = {
+		AD8CE82F1681204A00049B2A /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD843273167E17E3009123B0 /* en */,
+				AD8CE8301681204A00049B2A /* en */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
@@ -543,7 +518,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AD84324B167E15F3009123B0 /* Debug */ = {
+		AD8CE8081681203700049B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -553,7 +528,6 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -571,7 +545,7 @@
 			};
 			name = Debug;
 		};
-		AD84324C167E15F3009123B0 /* Release */ = {
+		AD8CE8091681203700049B2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -581,7 +555,6 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -592,35 +565,35 @@
 			};
 			name = Release;
 		};
-		AD84324E167E15F3009123B0 /* Debug */ = {
+		AD8CE80B1681203700049B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9FB3433D77C471E9C030230 /* Pods-MGCommandConfig.xcconfig */;
+			baseConfigurationReference = 7D36827FA8044D0EBB08F0C2 /* Pods-MGCommandConfig.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/MGCommandConfig.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MGCommandConfig/MGCommandConfig-Prefix.pch";
-				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		AD84324F167E15F3009123B0 /* Release */ = {
+		AD8CE80C1681203700049B2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9FB3433D77C471E9C030230 /* Pods-MGCommandConfig.xcconfig */;
+			baseConfigurationReference = 7D36827FA8044D0EBB08F0C2 /* Pods-MGCommandConfig.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/MGCommandConfig.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MGCommandConfig/MGCommandConfig-Prefix.pch";
-				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		AD843251167E15F3009123B0 /* Debug */ = {
+		AD8CE80E1681203700049B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3537B26A27454CFBB9E787BB /* Pods-MGCommandConfigTests.xcconfig */;
+			baseConfigurationReference = E70F7AE397DF4BCDA19250D4 /* Pods-MGCommandConfigTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -634,9 +607,9 @@
 			};
 			name = Debug;
 		};
-		AD843252167E15F3009123B0 /* Release */ = {
+		AD8CE80F1681203700049B2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3537B26A27454CFBB9E787BB /* Pods-MGCommandConfigTests.xcconfig */;
+			baseConfigurationReference = E70F7AE397DF4BCDA19250D4 /* Pods-MGCommandConfigTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -650,9 +623,9 @@
 			};
 			name = Release;
 		};
-		AD843276167E17E3009123B0 /* Debug */ = {
+		AD8CE8331681204A00049B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED3AB5B5599A44ADB6BE18C8 /* Pods-MGCommandConfigExample.xcconfig */;
+			baseConfigurationReference = 7044473A70454661BC00B1D5 /* Pods-MGCommandConfigExample.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -667,9 +640,9 @@
 			};
 			name = Debug;
 		};
-		AD843277167E17E3009123B0 /* Release */ = {
+		AD8CE8341681204A00049B2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED3AB5B5599A44ADB6BE18C8 /* Pods-MGCommandConfigExample.xcconfig */;
+			baseConfigurationReference = 7044473A70454661BC00B1D5 /* Pods-MGCommandConfigExample.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -688,43 +661,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD843222167E15F3009123B0 /* Build configuration list for PBXProject "MGCommandConfig" */ = {
+		AD8CE7DF1681203600049B2A /* Build configuration list for PBXProject "MGCommandConfig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD84324B167E15F3009123B0 /* Debug */,
-				AD84324C167E15F3009123B0 /* Release */,
+				AD8CE8081681203700049B2A /* Debug */,
+				AD8CE8091681203700049B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD84324D167E15F3009123B0 /* Build configuration list for PBXNativeTarget "MGCommandConfig" */ = {
+		AD8CE80A1681203700049B2A /* Build configuration list for PBXNativeTarget "MGCommandConfig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD84324E167E15F3009123B0 /* Debug */,
-				AD84324F167E15F3009123B0 /* Release */,
+				AD8CE80B1681203700049B2A /* Debug */,
+				AD8CE80C1681203700049B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD843250167E15F3009123B0 /* Build configuration list for PBXNativeTarget "MGCommandConfigTests" */ = {
+		AD8CE80D1681203700049B2A /* Build configuration list for PBXNativeTarget "MGCommandConfigTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD843251167E15F3009123B0 /* Debug */,
-				AD843252167E15F3009123B0 /* Release */,
+				AD8CE80E1681203700049B2A /* Debug */,
+				AD8CE80F1681203700049B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD843275167E17E3009123B0 /* Build configuration list for PBXNativeTarget "MGCommandConfigExample" */ = {
+		AD8CE8321681204A00049B2A /* Build configuration list for PBXNativeTarget "MGCommandConfigExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD843276167E17E3009123B0 /* Debug */,
-				AD843277167E17E3009123B0 /* Release */,
+				AD8CE8331681204A00049B2A /* Debug */,
+				AD8CE8341681204A00049B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AD84321F167E15F3009123B0 /* Project object */;
+	rootObject = AD8CE7DC1681203600049B2A /* Project object */;
 }
