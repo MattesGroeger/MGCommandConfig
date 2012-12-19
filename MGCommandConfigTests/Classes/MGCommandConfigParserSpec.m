@@ -211,6 +211,21 @@ describe(@"MGCommandConfigParser", ^
 		[[[[result commands][0] number2] should] equal:@1];
 	});
 
+	it(@"should support quotes in string parameters", ^
+	{
+		NSString *config = 	@"@concurrent\n"
+							@"	arguments: 23.2, \"foo\"bar\", 1\n"
+							@"@end\n";
+
+		id result = [MGCommandConfigParser configForString:config];
+
+		[[[result commands] should] haveCountOf:1];
+		[[[result commands][0] should] beKindOfClass:[ArgumentsCommand class]];
+		[[[[result commands][0] number] should] equal:@23.2];
+		[[[[result commands][0] string] should] equal:@"foo\"bar"];
+		[[[[result commands][0] number2] should] equal:@1];
+	});
+
 	it(@"should fail because command with parameters doesn't implement TutorialCommand", ^
 	{
 		NSString *config = 	@"@concurrent\n"
