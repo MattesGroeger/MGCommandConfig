@@ -135,9 +135,9 @@
 		[self throwError:[NSString stringWithFormat:@"Commands have to be wrapped in '@sequential' or '@concurrent' statements. Can't add command '%@'", command]];
 	}
 
-	NSArray *commandComponents = [command componentsSeparatedByString:@":"];
-	NSString *commandName = [self trim:commandComponents[0]];
-	NSString *argumentsString = (commandComponents.count > 1) ? [self trim:commandComponents[1]] : nil;
+	NSRange colonRange = [command rangeOfString:@":"];
+	NSString *commandName = (colonRange.length > 0) ? [self trim:[command substringToIndex:colonRange.location]] : [self trim:command];
+	NSString *argumentsString = (colonRange.length > 0) ? [self trim:[command substringFromIndex:colonRange.location+1]] : nil;
 
 	NSString *className = [[self capitalizeString:commandName] stringByAppendingString:@"Command"];
 	Class type = NSClassFromString(className);
