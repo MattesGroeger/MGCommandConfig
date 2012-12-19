@@ -94,15 +94,21 @@ The command mapping happens by convention. If you declare a command like this...
 Parametrized commands
 ---
 
-In most cases you also want to pass some configuration values to the command. Right now only `NSNumber` and `NSString` types are supported.
+In most cases you also want to pass some data to the command. A parametrized command needs to have the following format:
 
-A parametrized command needs to get a comma separated list of strings and numbers.
+	command: parameter1 [, parameter2] [, ...]
+
+A parameter can be either a string (e.g. `"foo"`) or a number (e.g. `23.3`). They get converted into their Objective-C equivalents `NSString` and `NSNumber`.
+
+This is how a parametrized command could look like:
 
     @concurrent
         test: "a string", 1
     @end
 
-In order to retrieve the parameters in the command itself, it needs to implement the `MGConfigurableCommand` protocol.
+**Consuming parameters inside a command**
+
+In order to retrieve the parameters in the command implementation, it needs to implement the `MGConfigurableCommand` protocol.
 
 ```objective-c
 @interface TestCommand : NSObject <MGCommand, MGConfigurableCommand>
