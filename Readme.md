@@ -197,3 +197,19 @@ You can find an example application in the [MGCommandConfigExample subfolder](ht
 
     print: (string)message – prints the given message on screen
     delay: (int)seconds - delays the execution by the given seconds
+
+## Changelog
+
+**0.1.0** (2013/04/01)
+
+* Made version compatible with `MGCommand` `0.1.0`
+
+**0.0.1** (2012/12/16)
+
+* Initial version
+
+## Contribution
+
+This library is released under the [MIT licence](http://opensource.org/licenses/MIT). Contributions are more than welcome!
+
+Also, follow me on Twitter if you like: [@MattesGroeger](https://twitter.com/MattesGroeger).
