@@ -188,18 +188,12 @@
 	{
 		if ([instance conformsToProtocol:@protocol(MGConfigurableCommand)])
 		{
-			NSError *error = NULL;
-			NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"(\".+\")|(\\d[^,]*)"
-			                                                                       options:NSRegularExpressionCaseInsensitive
-			                                                                         error:&error];
-			NSArray *matches = [regex matchesInString:argumentsString
-			                                  options:0
-			                                    range:NSMakeRange(0, [argumentsString length])];
-
+			NSArray *arguments = [argumentsString componentsSeparatedByString:@","];
 			NSMutableArray *processedArguments = [NSMutableArray array];
-			for (NSTextCheckingResult *match in matches)
+
+			for (NSString *argument in arguments)
 			{
-				[processedArguments addObject:[self convertType:[self trim:[argumentsString substringWithRange:[match range]]]]];
+				[processedArguments addObject:[self convertType:[self trim:argument]]];
 			}
 
 			@try
