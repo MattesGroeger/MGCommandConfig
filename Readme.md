@@ -202,7 +202,8 @@ You can find an example application in the [MGCommandConfigExample subfolder](ht
 
 **0.1.0** (2013/04/01)
 
-* Made version compatible with `MGCommand` `0.1.0`
+* [NEW] Made version compatible with `MGCommand` `0.1.0`
+* [NEW] Support colons in string parameters
 
 **0.0.1** (2012/12/16)
 
