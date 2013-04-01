@@ -79,7 +79,7 @@ objection_register_singleton(ViewController)
 		return;
 	}
 
-	commandGroup.callback = ^
+	commandGroup.completeHandler = ^
 	{
 		[self finishExecution];
 	};

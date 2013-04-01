@@ -160,7 +160,7 @@ If you add this file as `example.config` to your project, you can parse it like 
 ```objective-c
 id <MGAsyncCommand> commandGroup = [MGCommandConfigParser configForResource:@"example"];
 
-commandGroup.callback = ^
+commandGroup.completeHandler = ^
 {
     // execution finished
 };

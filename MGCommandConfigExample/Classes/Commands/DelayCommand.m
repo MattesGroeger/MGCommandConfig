@@ -45,7 +45,7 @@
 
 - (void)finishAfterDelay
 {
-	_callback();
+	_completeHandler();
 }
 
 @end

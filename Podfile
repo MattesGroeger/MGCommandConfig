@@ -1,7 +1,7 @@
 platform :ios, '5.0'
 
 target :MGCommandConfig, :exclusive => true do
-	pod 'MGCommand'
+	pod 'MGCommand', '0.1.0'
 end
 
 target :MGCommandConfigExample, :exclusive => false do
